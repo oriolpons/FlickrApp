@@ -6,5 +6,9 @@ target 'FlickrApp' do
   # use_frameworks!
 
   # Pods for FlickrApp
+  pod 'AFNetworking', '~> 2.6'
+  pod 'Mantle'
+  pod 'SDWebImage'
+  pod 'BlocksKit'
 
 end
