@@ -6,5 +6,9 @@ target 'FlickrApp' do
   # use_frameworks!
 
   # Pods for FlickrApp
-
+  pod 'SDWebImage'
+  pod 'objectiveflickr'
+  pod 'SBSearchBar'
+  pod 'MWPhotoBrowser'
+  pod 'DZNEmptyDataSet'
 end

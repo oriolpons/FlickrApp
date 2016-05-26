@@ -1,3 +1,33 @@
-PODFILE CHECKSUM: 7781362e00fb8332f64787b9a86489fd5a8d6dcf
+PODS:
+  - DACircularProgress (2.3.1)
+  - DZNEmptyDataSet (1.8.1)
+  - MBProgressHUD (0.9.2)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - objectiveflickr (2.0.4)
+  - SBSearchBar (0.0.6)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - MWPhotoBrowser
+  - objectiveflickr
+  - SBSearchBar
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  objectiveflickr: aed169dae1eb5a5550ca78f7efd7ccde2e4c26e5
+  SBSearchBar: b969f34fbb984c4a3ddc50228872549553351e3b
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: c1f3203eebb6cefd901c21ad78e7d4a38b79ce56
 
 COCOAPODS: 1.0.0

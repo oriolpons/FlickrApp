@@ -6,17 +6,25 @@
 //  Copyright © 2016 Oriol Pons. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "OPMAppDelegate.h"
+#import "OPMViewController.h"
+#import "OPMViewModel.h"
 
-@interface AppDelegate ()
+@interface OPMAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation OPMAppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    OPMViewModel *viewModel = [[OPMViewModel alloc] init];
+    OPMViewController *viewController = [[OPMViewController alloc] initWithViewModel:viewModel];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
