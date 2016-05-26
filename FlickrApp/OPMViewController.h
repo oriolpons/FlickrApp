@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  FlickrApp
 //
 //  Created by ORIOL PONS on 21/5/16.
@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class OPMViewModel;
 
-@property (strong, nonatomic) UIWindow *window;
+@interface OPMViewController : UIViewController
 
+- (instancetype)initWithViewModel:(OPMViewModel *)viewModel;
 
 @end
 
